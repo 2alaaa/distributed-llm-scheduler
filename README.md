@@ -4,13 +4,12 @@
 
 
 # Clone the repository
-\```bash
+
 git clone 
 
 
 # Install dependencies
 pip install -r requirements.txt
-\```
 
 ## Running the Code
 
@@ -18,9 +17,9 @@ pip install -r requirements.txt
 
 The easiest way to see everything in action:
 
-\```bash
+
 python simulation.py
-\```
+
 
 This will:
 - Test all 4 scheduling algorithms
@@ -32,9 +31,9 @@ This will:
 
 Quick test of all schedulers:
 
-\```bash
+
 python schedulers.py
-\```
+
 
 This runs a simple 4-task example and shows which tasks complete.
 
@@ -42,9 +41,9 @@ This runs a simple 4-task example and shows which tasks complete.
 
 See different types of computational graphs:
 
-\```bash
+
 python visu.py
-\```
+
 
 This will:
 - Generate visualizations of LLM DAG structures
@@ -53,12 +52,9 @@ This will:
 
 ### 4. Extract and test Real GPT-2 Model 
 
-**Note**: Requires PyTorch and Transformers
 
-\```bash
-pip install torch transformers
 python test_gpt2.py
-\```
+
 
 This extracts a real GPT-2 computation graph and tests scheduling on it.
 
