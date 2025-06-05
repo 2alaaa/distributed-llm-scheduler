@@ -2,8 +2,9 @@
 
 ## Installation
 
-\```bash
+
 # Clone the repository
+\```bash
 git clone 
 
 
